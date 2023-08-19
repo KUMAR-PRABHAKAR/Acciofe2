@@ -1,0 +1,103 @@
+ /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and default font */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: #555; /* Add color change on hover */
+}
+
+/* Style the sections */
+.section {
+    padding: 40px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the book table */
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-table th, .book-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.book-title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nested-table {
+    margin-top: 5px;
+}
+
+/* Style the registration form */
+.registration-form {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label, .registration-form input, .registration-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form label {
+    font-weight: bold;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #555;
+}
